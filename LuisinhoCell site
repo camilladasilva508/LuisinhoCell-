@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LuisinhoCell • Reparos em iPhone, Android e Placas | Campo Grande - MS</title>
+  <meta name="description" content="Reparos profissionais em iPhone, Android e microsoldagem em placas. Troca de tela, bateria, Face ID, conector e muito mais. Atendimento rápido no Camelódromo de Campo Grande - MS." />
+  <meta property="og:title" content="LuisinhoCell • Reparos iOS e Android" />
+  <meta property="og:description" content="Especialista em microsoldagem e reparos avançados. Chame no WhatsApp e receba seu orçamento agora." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#07121a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+/* LuisinhoCell - Neon Clean Theme */
+*{box-sizing:border-box}
+:root{
+  --bg:#07121a;
+  --bg-alt:#0b1d28;
+  --text:#eaf7ff;
+  --muted:#9bc2d8;
+  --brand:#35e3ff;
+  --brand-2:#1dd1a1;
+  --card:#0e2735;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+}
+html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif;background:var(--bg);color:var(--text)}
+a{color:var(--brand);text-decoration:none}
+.container{width:min(1100px,92vw);margin:0 auto}
+.btn{display:inline-block;padding:14px 22px;border-radius:10px;background:linear-gradient(135deg,var(--brand),#6cf);color:#00121a;font-weight:700;box-shadow:var(--shadow);transition:.2s}
+.btn:hover{transform:translateY(-2px);filter:saturate(1.1)}
+.btn-outline{background:transparent;border:2px solid var(--brand);color:var(--text)}
+
+header.nav{
+  position:sticky;top:0;z-index:10;background:rgba(7,18,26,.8);backdrop-filter:blur(8px);
+  border-bottom:1px solid rgba(255,255,255,.06)
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{display:flex;gap:10px;align-items:center}
+.brand img{height:40px;width:40px;object-fit:cover;border-radius:8px;box-shadow:0 0 25px rgba(53,227,255,.55)}
+.brand h1{font-size:20px;margin:0;letter-spacing:.5px}
+nav a{margin:0 12px;opacity:.9}
+nav a:hover{opacity:1}
+
+.hero{
+  padding:70px 0 40px; background:
+    radial-gradient(1000px 400px at 10% -10%, rgba(53,227,255,.25), transparent 60%),
+    radial-gradient(900px 600px at 90% 0%, rgba(53,227,255,.12), transparent 60%),
+    var(--bg);
+}
+.hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center}
+.hero h2{font-size:42px;line-height:1.1;margin:0 0 14px}
+.hero p{color:var(--muted);font-size:18px;margin:0 0 18px}
+.hero-img{position:relative}
+.hero-img img{width:100%;border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.badge{display:inline-block;padding:6px 10px;border:1px solid rgba(255,255,255,.15);border-radius:999px;color:var(--muted);font-size:13px;margin-bottom:10px}
+
+.section{padding:60px 0;border-top:1px solid rgba(255,255,255,.06);background:linear-gradient(180deg,transparent,rgba(255,255,255,.02))}
+.section h3{font-size:28px;margin:0 0 14px}
+.section p.lead{color:var(--muted);margin:0 0 22px}
+
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:18px;box-shadow:var(--shadow)}
+.card h4{margin:0 0 8px}
+.card p{margin:0;color:#cde6f5}
+.card .icon{font-size:28px;margin-bottom:6px}
+
+.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.quote{background:#0a2230;border-left:4px solid var(--brand);padding:16px;border-radius:10px}
+.quote strong{display:block;margin-top:8px}
+
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:12px}
+
+.map iframe{width:100%;height:360px;border:0;border-radius:12px}
+
+footer{padding:22px 0;color:#b9d7e8;border-top:1px solid rgba(255,255,255,.06);background:var(--bg-alt)}
+footer .foot{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+small a{opacity:.9}
+
+.whatsapp-fab{
+  position:fixed;right:18px;bottom:18px;z-index:50;
+  background:#25D366;color:#001; padding:14px 18px;border-radius:999px;font-weight:800;
+  box-shadow:var(--shadow)
+}
+
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr}
+  .grid-3,.testimonials{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .grid-3,.testimonials{grid-template-columns:1fr}
+  .hero h2{font-size:34px}
+}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobilePhoneStore",
+    "name": "LuisinhoCell",
+    "image": "data:image/png;base64,",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Avenida Noroeste, 5088, Camelódromo, Box 134",
+      "addressLocality": "Campo Grande",
+      "addressRegion": "MS",
+      "addressCountry": "BR"
+    },
+    "url": "https://example.com",
+    "telephone": "+5567992705001",
+    "priceRange": "$$",
+    "sameAs": [
+      "https://instagram.com/luisinhocell",
+      "https://wa.me/5567992705001"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="whatsapp-fab" href="https://wa.me/5567992705001?text=Ol%C3%A1%20vim%20pelo%20site%20da%20LuisinhoCell%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">WhatsApp</a>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <!-- Substitua a imagem abaixo pela sua logo caso queira -->
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAADzG7ZPAAA..." alt="LuisinhoCell">
+        <h1>LuisinhoCell</h1>
+      </div>
+      <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#localizacao">Localização</a>
+        <a class="btn" href="https://wa.me/5567992705001?text=Ol%C3%A1%20vim%20pelo%20site%20da%20LuisinhoCell%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge">Microsoldagem • Face ID • iPhone • Android • Placas</div>
+        <h2>Reparos <em>rápidos e precisos</em> em iPhone, Android e placas</h2>
+        <p class="lead">18 anos de experiência. Especialista em <strong>microsoldagem</strong>, Face ID, conector, placa-mãe, troca de tela e bateria. Atendimento direto no <strong>Camelódromo</strong>.</p>
+        <div class="cta">
+          <a class="btn" href="https://wa.me/5567992705001?text=Ol%C3%A1%20vim%20pelo%20site%20da%20LuisinhoCell%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn btn-outline" href="tel:+5567992705001">Ligar: (67) 99270-5001</a>
+        </div>
+        <p id="open-badge" style="margin-top:10px;font-weight:800;"></p>
+      </div>
+      <div class="hero-img">
+        <!-- Banner/logo grande (substitua quando quiser) -->
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAADzG7ZPAAA..." alt="LuisinhoCell - banner">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="servicos">
+    <div class="container">
+      <h3>Serviços principais</h3>
+      <p class="lead">Usamos peças de alta qualidade e diagnóstico avançado para resolver o problema certo na primeira vez.</p>
+      <div class="grid-3">
+        <div class="card">
+          <div class="icon">📱</div>
+          <h4>Troca de tela e bateria</h4>
+          <p>iPhone e Android com garantia. Vidro, OLED, bateria e vedação IP.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🧠</div>
+          <h4>Microsoldagem e placa</h4>
+          <p>Recuperação de Face ID, Wi-Fi, áudio, carga, backlight e curto.</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚡</div>
+          <h4>Conector, câmeras e água</h4>
+          <p>Troca de portas, sensores, limpeza pós-oxidação e testes.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🔒</div>
+          <h4>Segurança & dados</h4>
+          <p>Backup, migração, desbloqueio de conta do aparelho (quando permitido).</p>
+        </div>
+        <div class="card">
+          <div class="icon">🚀</div>
+          <h4>Atendimento express</h4>
+          <p>Serviços rápidos para emergências do dia a dia. Consulte disponibilidade.</p>
+        </div>
+        <div class="card">
+          <div class="icon">💬</div>
+          <h4>Orçamento online</h4>
+          <p>Envie seu modelo no WhatsApp e receba valores e prazos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="container">
+      <h3>Sobre a LuisinhoCell</h3>
+      <p class="lead">Somos referência em reparos avançados em Campo Grande - MS. Trabalhamos com transparência, fotos do serviço e garantia por escrito.</p>
+      <div class="grid-3">
+        <div class="card"><h4>Qualidade</h4><p>Peças testadas e fornecedores confiáveis.</p></div>
+        <div class="card"><h4>Transparência</h4><p>Diagnóstico claro antes de qualquer troca.</p></div>
+        <div class="card"><h4>Garantia</h4><p>Certificado com prazo conforme o serviço.</p></div>
+      </div>
+      <div class="cta" style="margin-top:16px">
+        <a class="btn" href="https://instagram.com/luisinhocell" target="_blank" rel="noopener">@luisinhocell</a>
+        <a class="btn btn-outline" href="https://wa.me/5567992705001?text=Ol%C3%A1%20vim%20pelo%20site%20da%20LuisinhoCell%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="depoimentos">
+    <div class="container">
+      <h3>Depoimentos</h3>
+      <div class="testimonials">
+        <div class="quote">“Trocaram minha tela no mesmo dia e ficou perfeita.” <strong>— Cliente Google</strong></div>
+        <div class="quote">“Resolveram o Face ID que outra assistência disse ser impossível.” <strong>— Cliente Instagram</strong></div>
+        <div class="quote">“Atendimento honesto e preço justo. Recomendo!” <strong>— Cliente Local</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="localizacao">
+    <div class="container">
+      <h3>Onde estamos</h3>
+      <p class="lead">Avenida Noroeste, 5088, Camelódromo, Box 134, Campo Grande - MS</p>
+      <div class="map"><iframe src="https://www.google.com/maps?q=Avenida+Noroeste,+5088,+Campo+Grande+MS+Camel%C3%B3dromo+Box+134&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <small>© <!-- ano --> <span id="year"></span> LuisinhoCell. Todos os direitos reservados.</small>
+      <small><a href="tel:+5567992705001">(67) 99270-5001</a> • <a href="https://wa.me/5567992705001" target="_blank" rel="noopener">WhatsApp</a></small>
+    </div>
+  </footer>
+
+  <script>
+/* Smooth scroll for anchor links */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click', e=>{
+    const id = a.getAttribute('href').slice(1);
+    const el = document.getElementById(id);
+    if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+  });
+});
+
+/* Open/closed badge (Mon–Sat 08:30–18:00; Sun closed) */
+(function(){
+  const openBadge = document.getElementById('open-badge');
+  if(!openBadge) return;
+  const now = new Date();
+  const day = now.getDay(); // 0 Sun ... 6 Sat
+  const hour = now.getHours() + now.getMinutes()/60;
+  let open = false;
+  if(day >= 1 && day <= 6){ // Mon-Sat
+    open = hour >= 8.5 && hour <= 18;
+  }
+  openBadge.textContent = open ? 'ABERTO AGORA' : 'FECHADO NO MOMENTO';
+  openBadge.style.color = open ? '#1dd1a1' : '#ff6b6b';
+})();
+
+/* Preenche ano no rodapé */
+document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
